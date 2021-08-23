@@ -1,4 +1,18 @@
-# Python3 implementation to find the
+''' Maximum sum bitonic subarray
+
+Given an array containing n numbers. The problem is to find the maximum sum bitonic subarray. A bitonic subarray is a subarray in which elements are first increasing and then 
+decreasing. A strictly increasing or strictly decreasing subarray is also considered a bitonic subarray. Time Complexity of O(n) is required.
+
+Examples:
+
+Input : arr[] = {5, 3, 9, 2, 7, 6, 4}
+Output : 19
+The subarray is {2, 7, 6, 4}.
+
+Input : arr[] = {9, 12, 14, 8, 6, 5, 10, 20}
+Output : 54
+'''
+
 # maximum sum bitonic subarray
 
 # Function to find the maximum sum bitonic
