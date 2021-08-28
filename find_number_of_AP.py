@@ -1,6 +1,28 @@
 # Python program to find number of AP
 # subsequences in the given array
 
+''' Count of AP (Arithmetic Progression) Subsequences in an array
+Difficulty Level : Hard
+Last Updated : 21 May, 2021
+Given an array of n positive integers. The task is to count the number of Arithmetic Progression 
+subsequence in the array. Note: Empty sequence or single element sequence is Arithmetic Progression. 1 <= arr[i] <= 1000000.
+Examples: 
+ 
+
+Input : arr[] = { 1, 2, 3 }
+Output : 8
+Arithmetic Progression subsequence from the 
+given array are: {}, { 1 }, { 2 }, { 3 }, { 1, 2 },
+{ 2, 3 }, { 1, 3 }, { 1, 2, 3 }.
+
+Input : arr[] = { 10, 20, 30, 45 }
+Output : 12
+
+Input : arr[] = { 1, 2, 3, 4, 5 }
+Output : 23
+
+'''
+
 MAX = 1000001
 
 def numofAP(a, n):
