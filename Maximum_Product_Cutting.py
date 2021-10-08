@@ -1,5 +1,5 @@
 # The main function that returns maximum
-# product obtainable from a rope of length 
+# product obtainable from a rope of length n
 
 ''' Maximum Product Cutting | DP-36
 Difficulty Level : Medium
